@@ -51,6 +51,7 @@ func Run(args []string) int {
 	for k, v := range containersNeeded {
 		fmt.Printf("%d: %d\n", k, v)
 	}
+	fmt.Printf("Remainder: %d\n", remaining)
 
 	return 0
 }
